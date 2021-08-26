@@ -1,0 +1,118 @@
+.topnav {
+    display: flex;
+    justify-content: left;
+    background-color: black;
+}
+
+#canvas1 {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+html {
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+.topnav a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav a:hover {
+    color: dimgray;
+}
+
+.topnav a.active {
+    color: dimgray;
+}
+
+.sidenav a {
+    position: fixed;
+    right: -83px;
+    transition: 250ms;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px 0 0 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#github:hover {
+    right: -28px;
+    color: dimgray;
+}
+
+#email:hover {
+    right: -38px;
+    color: dimgray;
+}
+
+#linkedin:hover {
+    right: -15px;
+    color: dimgray;
+}
+
+#github {
+    top: 240px;
+    background-color: black;
+}
+
+#linkedin {
+    top: 310px;
+    background-color: black;
+}
+
+#email {
+    top: 380px;
+    background-color: black;
+}
+
+span {
+    display: inline-block;
+    vertical-align: super;
+}
+
+.foot {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+}
+
+.spacer {
+    height: 1400px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: lightsteelblue;
+}
